@@ -1,0 +1,19 @@
+.btn-primary:hover{
+    background-color :red;
+    font-size :30px;
+}
+
+canvas{
+    border :2px solid black;
+   
+   animation-name:Clown;
+    animation-duration:0.3s;
+    animation-iteration-count:infinite ;
+   
+}
+
+
+@keyframes Clown{
+    from{box-shadow: -30px -50px 240px green ;}
+    to{box-shadow: 30px 50px 240px blue ;}
+}
